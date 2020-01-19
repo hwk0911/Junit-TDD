@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
-
 class MultiplierTest {
 
     @Test
@@ -13,6 +11,6 @@ class MultiplierTest {
     @Test
     void testMultiply() {
         Multiplier multiplier = new Multiplier();
-        assertEquals(multiplier.multiply(2, 3, 4), 20);
+        assertEquals(multiplier.multiply(2, 3, 4), 24);
     }
 }
