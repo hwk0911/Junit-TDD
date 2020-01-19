@@ -1,7 +1,7 @@
 # junit
 junit, TDD 연습
 
-## 사용 스펙
+## 사용 스
 IDE : IntelliJ
 
 Junit ver : Junit5
