@@ -1,0 +1,4 @@
+#Junit, TDD ignore
+
+/.idea
+/out
