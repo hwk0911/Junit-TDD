@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bbc4b56-af35-4b37-b5ed-9cef84f6ebf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProgrammersTDD/ProgrammersTDD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Programmers_Stack_2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestOverloading/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/TestOverloading/MultiplierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TestOverloading/MultiplierTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MultiplierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MultiplierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplierTest.multiply">
+  <component name="RunManager" selected="JUnit.Programmers_Stack_2Test">
     <configuration name="MultiplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestOverloading" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,10 +81,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Programmers_Stack_2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOverloading" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programmers_Stack_2Test.SumTruckWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOverloading" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_2Test" />
+      <option name="METHOD_NAME" value="SumTruckWeight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programmers_Stack_2Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOverloading" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_2Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MultiplierTest.multiply" />
+        <item itemvalue="JUnit.Programmers_Stack_2Test" />
+        <item itemvalue="JUnit.Programmers_Stack_2Test.SumTruckWeight" />
+        <item itemvalue="JUnit.Programmers_Stack_2Test.solution" />
         <item itemvalue="JUnit.MultiplierTest" />
+        <item itemvalue="JUnit.MultiplierTest.multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -155,22 +186,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="971" y="147" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425437300" />
-    <state width="1342" height="222" key="GridCell.Tab.0.bottom" timestamp="1579425989463">
+    <state width="944" height="130" key="GridCell.Tab.0.bottom" timestamp="1579688305635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="1342" height="222" key="GridCell.Tab.0.center" timestamp="1579425989463">
+    <state width="944" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579688305635" />
+    <state width="944" height="130" key="GridCell.Tab.0.center" timestamp="1579688305635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="1342" height="222" key="GridCell.Tab.0.left" timestamp="1579425989462">
+    <state width="944" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579688305635" />
+    <state width="944" height="130" key="GridCell.Tab.0.left" timestamp="1579688305635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989462" />
-    <state width="1342" height="222" key="GridCell.Tab.0.right" timestamp="1579425989463">
+    <state width="944" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579688305635" />
+    <state width="944" height="130" key="GridCell.Tab.0.right" timestamp="1579688305635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
+    <state width="944" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579688305635" />
     <state width="1342" height="222" key="GridCell.Tab.1.bottom" timestamp="1579425990207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -199,24 +234,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425072671" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579425106555">
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579687602819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425106555" />
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1579687602819" />
     <state x="360" y="21" key="new project wizard" timestamp="1579426059407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="21" key="new project wizard/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426059407" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/MultiplierTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
