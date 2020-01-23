@@ -1,5 +1,5 @@
-# junit
-junit, TDD 연습
+# 개요
+Junit을 통한 TDD 연습
 
 ## 사용 스택
 IDE : IntelliJ
