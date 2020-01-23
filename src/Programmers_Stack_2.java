@@ -1,58 +1,82 @@
-import java.util.Queue;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Programmers_Stack_2 {
-    class Truck{
-        private int weight;
-        private int time;
-
-        private void setWeight(int weight){
-            this.weight = weight;
-        }
-
-        private void setTime(int time){
-            this.time = time;
-        }
-
-        private int getWeight(){
-            return this.weight;
-        }
-
-        private int getTime(){
-            return this.time;
-        }
-    }
-
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;
+        answer = GetAnswer(bridge_length, weight, truck_weights);
         return answer;
     }
 
-    public int SumTruckWeight(Queue<Integer> bridge) {
-        int sumTruck = 0;
+    public int GetAnswer(int bridge_length, int weight, int[] truck_weight) {
+        int answer = 0;
 
-        for(int index = 0, size = bridge.size() ; index < size ; index++){
-            sumTruck += bridge.poll();
+        ArrayList<Integer> bridge = new ArrayList<>();
+        ArrayList<Integer> time = new ArrayList<>();
+        ArrayList<Integer> copyTruckWeight = new ArrayList<>();
+
+        for (int index : truck_weight) {
+            copyTruckWeight.add(index);
         }
 
-        return sumTruck;
+        Iterator<Integer> truckWeightIterator = copyTruckWeight.iterator();
+
+        for (; truckWeightIterator.hasNext(); ) {
+            int truckWeight = truckWeightIterator.next();
+
+            if(!CheckBridgeCondition(bridge, time, truckWeight, weight, bridge_length)){
+                for(;!CheckBridgeCondition(bridge, time, truckWeight, weight, bridge_length);) {
+                    answer += time.get(0);
+                    time = MoveTruck(time, time.get(0));
+                    time.remove(0);
+                    bridge.remove(0);
+                }
+            }
+            else{
+                time = MoveTruck(time, 1);
+                answer++;
+            }
+
+            time.add(bridge_length);
+            bridge.add(truckWeight);
+
+            if(time.get(0) == 0){
+                time.remove(0);
+                bridge.remove(0);
+            }
+
+            System.out.println(bridge.toString() + " " + answer);
+        }
+
+        return answer + time.get(time.size() - 1);
     }
 
-    public boolean CheckWeight(int sumTruck, int truckWeight, final int maxWeight){
-        if(sumTruck + truckWeight <= maxWeight)
-            return true;
+    public boolean CheckBridgeCondition(ArrayList<Integer> bridge, ArrayList<Integer> time, int truckWeigth, int weight, int bridgeLenght) {
+        int sumTruckWeight = truckWeigth;
 
-        return false;
+        for (int index = 0, size = bridge.size(); index < size; index++) {
+            sumTruckWeight += bridge.get(index);
+
+            if (sumTruckWeight > weight)
+                return false;
+        }
+
+        if(time.size() >= bridgeLenght)
+            return false;
+
+        return true;
+    }
+
+    public ArrayList<Integer> MoveTruck(ArrayList<Integer> time, Integer decrease) {
+        for (int index = 0, size = time.size(); index < size; index++) {
+            time.set(index, time.get(index) - decrease);
+        }
+
+        return time;
     }
 }
 
-
 /*
-TODO 1 : 트럭 정보를 저장할 class 생성
-TODO 2 : 다리 위의 총 무게 합을 반환할 함수 생성
-TODO 3 : TODO2 + 새로운 트럭무게 <= weight check 함수 생성
-TODO 4 : TODO3 의 결과에 따라 offer 하거나 poll 할 함수 생성
-TODO 5 : TODO2 의 결과가 true 일때 모든 원소의 time 값을 -1, 새로운 트럭 offer
-TODO 6_1 : TODO2 의 결과가 false 일때 answer 에 가장 앞 원소의 time 값을 더해줌
-TODO 6_2 : TODO2로 true 일때까지 TODO 6_1 반복
-TODO 7 : 인덱스가 truck_weights 의 마지막을 가리킬때 return answer
+
+
  */
