@@ -57,16 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Programmers_Stack_3Test.getAnswer">
-    <configuration name="Programmers_Stack_3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_3Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Programmers_Stack_4Test.getAnswer">
     <configuration name="Programmers_Stack_3Test.addSpeeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestOverloading" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,16 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Programmers_Stack_3Test.arrayToArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_3Test" />
-      <option name="METHOD_NAME" value="arrayToArrayList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Programmers_Stack_3Test.getAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestOverloading" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,13 +88,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Programmers_Stack_4Test.getAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOverloading" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_4Test" />
+      <option name="METHOD_NAME" value="getAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programmers_Stack_4Test.setCircleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOverloading" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_Stack_4Test" />
+      <option name="METHOD_NAME" value="setCircleQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Programmers_Stack_4Test.getAnswer" />
+        <item itemvalue="JUnit.Programmers_Stack_4Test.setCircleQueue" />
         <item itemvalue="JUnit.Programmers_Stack_3Test.getAnswer" />
         <item itemvalue="JUnit.Programmers_Stack_3Test.arrayListToArray" />
         <item itemvalue="JUnit.Programmers_Stack_3Test.addSpeeds" />
-        <item itemvalue="JUnit.Programmers_Stack_3Test" />
-        <item itemvalue="JUnit.Programmers_Stack_3Test.arrayToArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -175,14 +176,22 @@
       <option name="project" value="LOCAL" />
       <updated>1579791035615</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Programmers_Stack_3 기능 개발">
+      <created>1579796354114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579796354114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1차 연습, 단순계산을 이용해 Junit 사용방법을 배움" />
     <MESSAGE value="ignore 파일 생성" />
     <MESSAGE value="Programmers_Stack_2 다리를 지나는 트럭" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programmers_Stack_2 다리를 지나는 트럭" />
+    <MESSAGE value="Programmers_Stack_3 기능 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programmers_Stack_3 기능 개발" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="74" key="#Project_Structure" timestamp="1579426081027">
@@ -198,35 +207,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="730" y="89" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426041987" />
-    <state x="789" y="0" key="CommitChangelistDialog2" timestamp="1579791034898">
+    <state x="789" y="0" key="CommitChangelistDialog2" timestamp="1579796353415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="789" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425915732" />
-    <state x="789" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579791034898" />
+    <state x="789" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579796353415" />
     <state x="971" y="147" key="FileChooserDialogImpl" timestamp="1579425437300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="971" y="147" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425437300" />
-    <state width="793" height="130" key="GridCell.Tab.0.bottom" timestamp="1579794610457">
+    <state width="793" height="130" key="GridCell.Tab.0.bottom" timestamp="1579800719815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="793" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579794610457" />
-    <state width="793" height="130" key="GridCell.Tab.0.center" timestamp="1579794610457">
+    <state width="793" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579800719815" />
+    <state width="793" height="130" key="GridCell.Tab.0.center" timestamp="1579800719814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="793" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579794610457" />
-    <state width="793" height="130" key="GridCell.Tab.0.left" timestamp="1579794610457">
+    <state width="793" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579800719814" />
+    <state width="793" height="130" key="GridCell.Tab.0.left" timestamp="1579800719813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989462" />
-    <state width="793" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579794610457" />
-    <state width="793" height="130" key="GridCell.Tab.0.right" timestamp="1579794610457">
+    <state width="793" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579800719813" />
+    <state width="793" height="130" key="GridCell.Tab.0.right" timestamp="1579800719814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="793" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579794610457" />
+    <state width="793" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579800719814" />
     <state width="1342" height="222" key="GridCell.Tab.1.bottom" timestamp="1579425990207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -247,20 +256,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="48" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425429368" />
-    <state x="722" y="139" key="Vcs.Push.Dialog.v2" timestamp="1579791048321">
+    <state x="722" y="139" key="Vcs.Push.Dialog.v2" timestamp="1579796367346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425932913" />
-    <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579791048321" />
+    <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579796367346" />
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579425072671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425072671" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579794119021">
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579799282610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425106555" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1579794119021" />
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1579799282610" />
     <state x="360" y="21" key="new project wizard" timestamp="1579692708995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
