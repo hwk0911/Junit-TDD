@@ -15,3 +15,4 @@ Junit ver : Junit5
 	3차 연습, Programmers 기능 개발
 	4차 연습, Programmers 프린터
 	5차 연습, Programmers 쇠막대기
+	6차 연습, Programmers 주식가격
