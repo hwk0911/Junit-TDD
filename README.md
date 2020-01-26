@@ -8,11 +8,14 @@ Junit ver : Junit5
 
 문제출처 : programmers.co.kr
 
-## TDD
-### 문제 : 
-	1차 연습, 단순계산을 이용해 Junit 사용방법을 배움
-	2차 연습, Programmers 다리를 지나는 트럭 
-	3차 연습, Programmers 기능 개발
-	4차 연습, Programmers 프린터
-	5차 연습, Programmers 쇠막대기
-	6차 연습, Programmers 주식가격
+## 문제
+### 스택 / 큐 : 
+	연습, 단순계산을 이용해 Junit 사용방법을 배움
+	Programmers_Stack2 다리를 지나는 트럭 
+	Programmers_Stack3 기능 개발
+	Programmers_Stack4 프린터
+	Programmers_Stack5 쇠막대기
+	Programmers_Stack6 주식가격
+	
+### 힙 : 
+	Programmers_Heap1 더 맵게
