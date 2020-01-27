@@ -80,7 +80,7 @@ public class Programmers_Heap_3 {
     }
 
     public int[][] SetJobs(int[][] jobs) {
-        // jobs 를 들어온 순으로 정렬하고, 최초 빈 공간만큼 앞으로 당겨준다.
+        // TODO : jobs 를 들어온 순으로 정렬하고, 최초 빈 공간만큼 앞으로 당겨준다.
         int[] jobTemp;
         int pullTime;
 
