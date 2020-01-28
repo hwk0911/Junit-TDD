@@ -1,61 +1,76 @@
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.PriorityQueue;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Programmers_Heap_4 {
-    static class Data implements Comparable<Data>{
-        int number;
-        public Data(int number){
-            this.number = number;
-        }
-
-        @Override
-        public int compareTo(Data target){
-            return this.number <= target.number ? 1 : -1;
-        }
-    }
-
     public int[] solution(String[] operations) {
         int[] answer = {0, 0};
-        int pollCount = 0;
-        int offerCount = 0;
         String[] temp;
 
-        PriorityQueue<Integer> ascendingQueue = new PriorityQueue<>();
-        PriorityQueue<Data> descendingQueue = new PriorityQueue<>();
-        Data data;
+        Queue<String[]> operationQueue = SetQueue(operations);
+        ArrayList<Integer> dataArrayList = new ArrayList<>();
 
-        for(String operation : operations){
-            temp = operation.split(" ");
-
+        for(;!operationQueue.isEmpty();){
+            temp = operationQueue.poll();
             if(temp[0].equals("I")){
-                data = new Data(Integer.parseInt(temp[1]));
-                ascendingQueue.offer(Integer.parseInt(temp[1]));
-                descendingQueue.offer(data);
-                ++offerCount;
+                dataArrayList.add(Integer.parseInt(temp[1]));
             }
-            else{
-                if(offerCount <= pollCount){
-                    continue;
-                }
-                else if(temp[1].equals("1")){
-                    descendingQueue.poll();
-                    ++pollCount;
+            else if(!dataArrayList.isEmpty()){
+                if(temp[1].equals("1")){
+                    dataArrayList.remove(GetMaxIndex(dataArrayList));
                 }
                 else{
-                    ascendingQueue.poll();
-                    ++pollCount;
+                    dataArrayList.remove(GetMinIndex(dataArrayList));
                 }
             }
-
         }
 
-        if(offerCount > pollCount){
-            data = descendingQueue.poll();
-            answer[0] = data.number;
-            answer[1] = ascendingQueue.poll();
+        Collections.sort(dataArrayList);
+
+        if(!dataArrayList.isEmpty()){
+            answer[0] = dataArrayList.get(dataArrayList.size() - 1);
+            answer[1] = dataArrayList.get(0);
         }
 
         return answer;
+    }
+
+    public Queue<String[]> SetQueue (String[] operations){
+        Queue<String[]> operationQueue = new LinkedList<>();
+
+        for(String operation : operations){
+            operationQueue.offer(operation.split(" "));
+        }
+
+        return operationQueue;
+    }
+
+    public int GetMaxIndex (ArrayList<Integer> dataArrayList){
+        int max = dataArrayList.get(0);
+        int maxIndex = 0;
+
+        for(int index = 1, size = dataArrayList.size() ; index < size ; index++){
+            if(max < dataArrayList.get(index)){
+                max = dataArrayList.get(index);
+                maxIndex = index;
+            }
+        }
+
+        return maxIndex;
+    }
+
+    public int GetMinIndex (ArrayList<Integer> dataArrayList){
+        int min = dataArrayList.get(0);
+        int minIndex = 0;
+
+        for(int index = 1, size = dataArrayList.size() ; index < size ; index++){
+            if(min > dataArrayList.get(index)){
+                min = dataArrayList.get(index);
+                minIndex = index;
+            }
+        }
+
+        return minIndex;
     }
 }
