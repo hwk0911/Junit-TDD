@@ -2,6 +2,8 @@ public class Programmers_DFS_BFS_3 {
     public int solution(String begin, String target, String[] words) {
         int answer = 0;
 
+        answer = ChangeCount(begin, target, words, 0, 0);
+
         return answer;
     }
 
@@ -27,18 +29,22 @@ public class Programmers_DFS_BFS_3 {
         return (count == 1) ? true : false;
     }
 
-    public int DFS(String begin, String target, String[] words, int startIndex, int answer){
+    public int ChangeCount (String begin, String target, String[] words, int startIndex, int answer){
+        String tempString = begin;
+
         if(begin.equals(target)){
-            return answer;
+            return (answer == 0) ? Integer.MAX_VALUE : answer;
         }
 
-        for(int index = startIndex, size = words.length ; index < size ; index++){
-            if(CheckDifferentCount(begin, words[index])){
+        for(int index = startIndex, size = words.length ; index < size ;index++ ){
+            if(CheckDifferentCount(tempString, words[index])){
                 ++answer;
+                tempString = words[index];
+                System.out.println(answer);
 
             }
         }
 
-        return
+        return Math.min(answer, ChangeCount(begin, target, words, startIndex + 1, 0));
     }
 }

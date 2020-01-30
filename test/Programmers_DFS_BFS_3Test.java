@@ -22,4 +22,14 @@ class Programmers_DFS_BFS_3Test {
 
         assertEquals(0, pdb3.solution(begin_2, target_2, words_2));
     }
+
+    @Test
+    void checkDifferentCount() {
+        Programmers_DFS_BFS_3 pdb3 = new Programmers_DFS_BFS_3();
+
+        String begin = "hit";
+        String target = "cog";
+
+        assertEquals(false, pdb3.CheckDifferentCount(begin, target));
+    }
 }

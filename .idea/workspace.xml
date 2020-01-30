@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5bbc4b56-af35-4b37-b5ed-9cef84f6ebf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_DFS_BFS_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_DFS_BFS_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Programmers_DFS_BFS_3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Programmers_DFS_BFS_3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,21 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Programmers_DFS_BFS_3Test.checkDifferentCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOverloading" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_DFS_BFS_3Test" />
+      <option name="METHOD_NAME" value="checkDifferentCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Programmers_DFS_BFS_3Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestOverloading" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Programmers_DFS_BFS_3Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Programmers_Heap_4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Programmers_Heap_4Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,10 +117,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Programmers_DFS_BFS_3Test" />
+        <item itemvalue="JUnit.Programmers_DFS_BFS_3Test.checkDifferentCount" />
         <item itemvalue="JUnit.Programmers_DFS_BFS_3Test.solution" />
         <item itemvalue="Application.test" />
         <item itemvalue="JUnit.Progreammers_DFS_BFS_2Test.solution" />
-        <item itemvalue="JUnit.Programmers_Heap_4Test" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580202951808</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Programmers_DFS_BFS_3 단어 변환 미완성">
+      <created>1580294847590</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580294847590</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,7 +324,8 @@
     <MESSAGE value="Programmers_Heap_4 이중우선순위큐 미완성" />
     <MESSAGE value="Programmers_Heap_4 이중우선순위큐" />
     <MESSAGE value="Programmers_DFS_BFS_2 네트워크" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programmers_DFS_BFS_2 네트워크" />
+    <MESSAGE value="Programmers_DFS_BFS_3 단어 변환 미완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programmers_DFS_BFS_3 단어 변환 미완성" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="74" key="#Auto_Import" timestamp="1580115243650">
@@ -338,35 +349,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="730" y="89" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426041987" />
-    <state x="774" y="11" key="CommitChangelistDialog2" timestamp="1580202951252">
+    <state x="774" y="11" key="CommitChangelistDialog2" timestamp="1580294847023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="789" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425915732" />
-    <state x="774" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580202951252" />
+    <state x="774" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580294847023" />
     <state x="971" y="147" key="FileChooserDialogImpl" timestamp="1579425437300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="971" y="147" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425437300" />
-    <state width="800" height="129" key="GridCell.Tab.0.bottom" timestamp="1580293068415">
+    <state width="723" height="129" key="GridCell.Tab.0.bottom" timestamp="1580370391469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="800" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580293068415" />
-    <state width="800" height="129" key="GridCell.Tab.0.center" timestamp="1580293068414">
+    <state width="723" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580370391469" />
+    <state width="723" height="129" key="GridCell.Tab.0.center" timestamp="1580370391468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="800" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580293068414" />
-    <state width="800" height="129" key="GridCell.Tab.0.left" timestamp="1580293068414">
+    <state width="723" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580370391468" />
+    <state width="723" height="129" key="GridCell.Tab.0.left" timestamp="1580370391467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989462" />
-    <state width="800" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580293068414" />
-    <state width="800" height="129" key="GridCell.Tab.0.right" timestamp="1580293068414">
+    <state width="723" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580370391467" />
+    <state width="723" height="129" key="GridCell.Tab.0.right" timestamp="1580370391469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="800" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580293068414" />
+    <state width="723" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580370391469" />
     <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1579857621932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -391,20 +402,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="48" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425429368" />
-    <state x="722" y="139" key="Vcs.Push.Dialog.v2" timestamp="1580202957135">
+    <state x="722" y="139" key="Vcs.Push.Dialog.v2" timestamp="1580294853036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425932913" />
-    <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580202957135" />
+    <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580294853036" />
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579425072671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425072671" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580290697431">
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580370244917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425106555" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1580290697431" />
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1580370244917" />
     <state x="360" y="21" key="new project wizard" timestamp="1580283413580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
