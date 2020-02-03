@@ -1,6 +1,6 @@
 public class Programmers_DFS_BFS_3 {
     public int solution(String begin, String target, String[] words) {
-        int answer = Integer.MAX_VALUE;
+        int answer = 1000;
         boolean[] visited = new boolean[words.length];
 
         if(!CheckWord(target, words)){
@@ -13,8 +13,7 @@ public class Programmers_DFS_BFS_3 {
         for(int index = 0, size = words.length ; index < size ; index++){
             if(CheckDifferentCount(begin, words[index])){
                 visited[index] = true;
-                answer = Math.min(answer, DFS(words[index], target, words, answer + 1, visited));
-                System.out.println(answer);
+                answer = Math.min(answer, DFS(words[index], target, words, 1, visited));
             }
         }
 
@@ -39,26 +38,34 @@ public class Programmers_DFS_BFS_3 {
             }
         }
 
-        if(differentCount != 1){
-            return false;
+        if(differentCount == 1){
+            return true;
         }
 
-        return true;
+        return false;
     }
 
     public int DFS(String begin, String target, String[] words, int count, boolean[] visited){
         int tempCount = count;
+
 
         if(begin.equals(target)){
             return count;
         }
 
         for(int index = 0, size = words.length ; index < size ; index++){
+            if(visited[index]){
+                continue;
+            }
+
             if(CheckDifferentCount(begin, words[index])){
+                System.out.println(begin);
+                System.out.println(count);
                 visited[index] = true;
                 count = Math.min(count, DFS(words[index], target, words, tempCount + 1, visited));
             }
         }
+
 
         return count;
     }
