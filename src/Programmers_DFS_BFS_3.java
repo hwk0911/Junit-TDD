@@ -1,50 +1,67 @@
 public class Programmers_DFS_BFS_3 {
     public int solution(String begin, String target, String[] words) {
-        int answer = 0;
+        int answer = Integer.MAX_VALUE;
+        boolean[] visited = new boolean[words.length];
 
-        answer = ChangeCount(begin, target, words, 0, 0);
+        if(!CheckWord(target, words)){
+            return 0;
+        }
+        else if(CheckDifferentCount(begin, target)){
+            return 1;
+        }
+
+        for(int index = 0, size = words.length ; index < size ; index++){
+            if(CheckDifferentCount(begin, words[index])){
+                visited[index] = true;
+                answer = Math.min(answer, DFS(words[index], target, words, answer + 1, visited));
+                System.out.println(answer);
+            }
+        }
 
         return answer;
     }
 
-    public boolean CheckInnerWord(String target, String[] words) {
-        for (int index = 0, size = words.length; index < size; index++) {
-            if (words[index].equals(target)) {
+    public boolean CheckWord (String target, String[] words){
+        for(int index = 0, size = words.length ; index < size ; index++){
+            if(target.equals(words[index])){
                 return true;
             }
         }
-
         return false;
     }
 
-    public boolean CheckDifferentCount(String begin, String target) {
-        int count = 0;
+    public boolean CheckDifferentCount (String begin, String target){
+        int differentCount = 0;
 
-        for (int index = 0, size = begin.length(); index < size; index++) {
-            if (begin.charAt(index) != target.charAt(index)) {
-                ++count;
+        for(int index = 0, size = begin.length() ; index < size ; index++){
+            if(begin.charAt(index) != target.charAt(index)){
+                ++differentCount;
             }
         }
 
-        return (count == 1) ? true : false;
+        if(differentCount != 1){
+            return false;
+        }
+
+        return true;
     }
 
-    public int ChangeCount (String begin, String target, String[] words, int startIndex, int answer){
-        String tempString = begin;
+    public int DFS(String begin, String target, String[] words, int count, boolean[] visited){
+        int tempCount = count;
 
         if(begin.equals(target)){
-            return (answer == 0) ? Integer.MAX_VALUE : answer;
+            return count;
         }
 
-        for(int index = startIndex, size = words.length ; index < size ;index++ ){
-            if(CheckDifferentCount(tempString, words[index])){
-                ++answer;
-                tempString = words[index];
-                System.out.println(answer);
-
+        for(int index = 0, size = words.length ; index < size ; index++){
+            if(CheckDifferentCount(begin, words[index])){
+                visited[index] = true;
+                count = Math.min(count, DFS(words[index], target, words, tempCount + 1, visited));
             }
         }
 
-        return Math.min(answer, ChangeCount(begin, target, words, startIndex + 1, 0));
+        return count;
     }
+
+
 }
