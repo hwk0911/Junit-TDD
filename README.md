@@ -23,6 +23,9 @@ Junit ver : Junit5
 	Programmers_Heap3 디스크 컨트롤러
 	Programmers_Heap4 이중우선순위큐
 	
+### 정렬 :
+	Porgrammers_Sort_1 K번째수 (PriorityQueue)
+	Porgrammers_Sort_1 K번째수 (QuickSort)
 	
 ### DFS / BFS :
 	Programmers_DFS_BFS_2 네트워크
