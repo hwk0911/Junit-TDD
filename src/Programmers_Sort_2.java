@@ -15,7 +15,7 @@ public class Programmers_Sort_2 {
             }
         });
 
-
+        //Collections.sort To lambda
         //Collections.sort(strList, (o1, o2) -> (o2 + o1).compareTo(o1 + o2));
 
         if(strList.get(0).startsWith("0")){
