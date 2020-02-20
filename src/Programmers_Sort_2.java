@@ -1,71 +1,34 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class Programmers_Sort_2 {
     public String solution(int[] numbers) {
+        ArrayList<String> strList = new ArrayList<>();
+
+        for(Integer index : numbers){
+            strList.add(index.toString());
+        }
+
+        Collections.sort(strList, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return (o2 + o1).compareTo(o1 + o2);
+            }
+        });
+
+
+        //Collections.sort(strList, (o1, o2) -> (o2 + o1).compareTo(o1 + o2));
+
+        if(strList.get(0).startsWith("0")){
+            return "0";
+        }
+
+        Iterator<String> strItr = strList.iterator();
         String answer = "";
-        int[] indexes = new int[numbers.length];
-        Arrays.sort(numbers);
 
-        for(int index = 0, size = numbers.length ; index < size ; index++){
-            indexes[index] = index;
+        while(strItr.hasNext()){
+            answer += strItr.next();
         }
-
-        indexes = GetSortIndex(SetDivisionArray(numbers), indexes, 0, numbers.length - 1);
-
-        for(int index = 0, size = numbers.length ; index < size ; index++){
-            answer += String.valueOf(numbers[indexes[index]]);
-        }
-
 
         return answer;
-    }
-
-    public int[] SetDivisionArray (int[] numbers){
-        int[] divisionNumber = new int[numbers.length];
-
-        for(int index = 0, size = numbers.length ; index < size ; index++){
-            divisionNumber[index] = numbers[index] % 10;
-        }
-
-        return divisionNumber;
-    }
-
-    public int[] GetSortIndex (int[] divisionNumber, int[] index, int start, int end){
-        int left = start;
-        int right = end;
-        int pivot = divisionNumber[(left + right) / 2];
-        int temp;
-
-        do{
-            while(divisionNumber[left] > pivot){
-                left++;
-            }
-            while(divisionNumber[right] < pivot){
-                right--;
-            }
-
-            if(left <= right){
-                temp = divisionNumber[left];
-                divisionNumber[left] = divisionNumber[right];
-                divisionNumber[right] = temp;
-
-                temp = index[left];
-                index[left] = index[right];
-                index[right] = temp;
-
-                left++;
-                right--;
-            }
-        }while(left <= right);
-
-        if(start < right){
-            GetSortIndex(divisionNumber, index, start, right);
-        }
-
-        if(end > left){
-            GetSortIndex(divisionNumber, index, left, end);
-        }
-
-        return index;
     }
 }
