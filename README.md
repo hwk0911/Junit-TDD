@@ -8,7 +8,7 @@ Junit ver : Junit5
 
 문제출처 : programmers.co.kr
 
-## 문제
+## Programmers Solutions
 ### 스택 / 큐 : 
 	연습, 단순계산을 이용해 Junit 사용방법을 배움
 	Programmers_Stack2 다리를 지나는 트럭 
@@ -29,3 +29,29 @@ Junit ver : Junit5
 	
 ### DFS / BFS :
 	Programmers_DFS_BFS_2 네트워크
+	
+	
+## Beakjoon Online Judge Solutions
+### for문법
+	BOJ_for문_2438_별찍기1
+
+### while문법
+	BOJ_while문_10951_AsumB_4
+
+### 1차원 배열
+	BOJ_Array_2562_최댓값
+	
+### 함수
+	BOJ_Function_15596_정수N개의합
+
+### 수학 1
+	BOJ_Math1_1712_손익분기점
+	BOJ_Math1_4153_직각삼각형
+	BOJ_Math1_2869_달팽이는올라가고싶다
+	
+### 수학 2
+	BOJ_Math2_3009_네번째점
+	
+### 재귀 함수
+	BOJ_Reculsive_10870_피보나치수5
+	
