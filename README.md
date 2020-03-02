@@ -30,6 +30,9 @@ Junit ver : Junit5
 ### DFS / BFS :
 	Programmers_DFS_BFS_2 네트워크
 	
+### Brute Force
+	Programmers_BruteForce_1_모의고사
+	
 	
 ## Beakjoon Online Judge Solutions
 ### for문법
