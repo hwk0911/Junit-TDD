@@ -11,7 +11,7 @@ public class Leetcode_Midium_22_GenerateParentheses {
     }
 
     // numClosednumOpen -> invalid
-    public void process(int n, int numOpen, int numClosed, String str, List<String ret>) {
+    public void process(int n, int numOpen, int numClosed, String str, List<String> ret) {
         //termination check
         if(numOpen == n && numClosed == n){
             ret.add(str);
