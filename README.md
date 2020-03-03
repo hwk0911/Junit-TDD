@@ -63,4 +63,5 @@ Junit ver : Junit5
 	
 
 ## LeetCode Solutions
+	Leetcode_Midium_22_GenerateParentheses.java
 	Leetcode_Midium_22_GenerateParentheses_practice.java
