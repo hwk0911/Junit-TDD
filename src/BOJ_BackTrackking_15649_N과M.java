@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class BOJ_BackTrackking_1_N과M {
+public class BOJ_BackTrackking_15649_N과M {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -12,27 +12,33 @@ public class BOJ_BackTrackking_1_N과M {
         String[] temp = br.readLine().split(" ");
         int N = Integer.parseInt(temp[0]);
         int M = Integer.parseInt(temp[1]);
-        //Integer[] size = Integer.parseInt(br.readLine().split(" "));
 
-        for(Integer index = N ; index < M + 1 ; ++index) {
+        for (Integer index = 1; index < N + 1; ++index)
+        {
             data.add(index.toString());
         }
 
         boolean[] visited = new boolean[data.size()];
 
-        recursion(visited, 0, data, "");
+        recursion(visited, M, 0, data, "");
     }
 
-    public static void recursion(boolean[] visited, int n, ArrayList<String> data, String sequence) {
-        if (n == data.size()) {
+    public static void recursion(boolean[] visited, int M, int count, ArrayList<String> data, String sequence)
+    {
+        //termination check
+        if (M == count)
+        {
             System.out.println(sequence);
             return;
         }
 
-        for (int index = 0, size = data.size(); index < size; ++index) {
-            if(!visited[index]){
+        //recurse next
+        for (int index = 0, size = data.size(); index < size; ++index)
+        {
+            if (!visited[index])
+            {
                 visited[index] = !visited[index];
-                recursion(visited, n, data, sequence + data.get(index));
+                recursion(visited, M, count + 1, data, sequence + data.get(index) + " ");
                 visited[index] = !visited[index];
             }
         }
