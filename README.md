@@ -66,7 +66,7 @@ Junit ver : Junit5
 	
 
 ### 대회
-        BOJ_숭실대학교
+        BOJ_숭실대_15806_영우의기숙사청소
 
 ## LeetCode Solutions
 	Leetcode_Midium_22_GenerateParentheses.java
