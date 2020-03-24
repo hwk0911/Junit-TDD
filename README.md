@@ -65,6 +65,9 @@ Junit ver : Junit5
 	BOJ_BackTrackking_15649_N과M
 	
 
+### 대회
+        BOJ_숭실대학교
+
 ## LeetCode Solutions
 	Leetcode_Midium_22_GenerateParentheses.java
 	Leetcode_Midium_22_GenerateParentheses_practice.java
