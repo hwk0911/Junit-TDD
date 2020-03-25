@@ -1,5 +1,3 @@
-import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,15 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Point {
-    Integer x,y;
+    Integer x, y;
 
     Point(Integer x, Integer y) {
         this.x = x;
         this.y = y;
-    }
-
-    public Point getPoint () {
-        return this;
     }
 
     public Integer getX() {
@@ -25,106 +19,102 @@ class Point {
     public Integer getY() {
         return this.y;
     }
+
+    public boolean equal(Point point) {
+        if (this.getY() == point.getY() && this.getX() == point.getX()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
 public class BOJ_숭실대_15806_영우의기숙사청소 {
-    static List<Point> moldPoints;
+    static List<Point> transition = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        transition.add(new Point(-2, 1));
+        transition.add(new Point(-2, -1));
+        transition.add(new Point(-1, 2));
+        transition.add(new Point(-1, -2));
+        transition.add(new Point(2, 1));
+        transition.add(new Point(2, -1));
+        transition.add(new Point(1, 2));
+        transition.add(new Point(1, -2));
 
-        Integer N,M,K,t;
-        String[] getLine = br.readLine().split(" ");
+        String[] inputLine = br.readLine().split(" ");
 
-        Point point;
-        moldPoints = new ArrayList<>();
+        Integer N = Integer.parseInt(inputLine[0]);
+        Integer M = Integer.parseInt(inputLine[1]);
+        Integer K = Integer.parseInt(inputLine[2]);
+        Integer t = Integer.parseInt(inputLine[3]);
+
+        List<Point> moldPoints = new ArrayList<>();
         List<Point> checkPoints = new ArrayList<>();
 
-        N = Integer.parseInt(getLine[0]);
-        M = Integer.parseInt(getLine[1]);
-        K = Integer.parseInt(getLine[2]);
-        t = Integer.parseInt(getLine[3]);
-
         for(int index = 0 ; index < M ; ++index) {
-            getLine = br.readLine().split(" ");
-            point = new Point(Integer.parseInt(getLine[0]), Integer.parseInt(getLine[1]));
+            inputLine = br.readLine().split(" ");
 
-            moldPoints.add(point);
+            moldPoints.add(new Point(Integer.parseInt(inputLine[0]),
+                                     Integer.parseInt(inputLine[1])));
         }
 
         for(int index = 0 ; index < K ; ++index) {
-            getLine = br.readLine().split(" ");
-            point = new Point(Integer.parseInt(getLine[0]), Integer.parseInt(getLine[1]));
+            inputLine = br.readLine().split(" ");
 
-            checkPoints.add(point);
+            checkPoints.add(new Point(Integer.parseInt(inputLine[0]),
+                    Integer.parseInt(inputLine[1])));
         }
 
-        boolean[][] room = setRoom(N, moldPoints);
-
-        for(int lapse = 0 ; lapse < t ; ++lapse) {
-            room = breeding(room, moldPoints);
+        for(int index = 0 ; index < t ; ++index) {
+            moldPoints = breeding(moldPoints, N);
         }
 
-        checkRoom(room, checkPoints);
+        if (checkClean(checkPoints, moldPoints)) {
+            System.out.println("YES");
+        }
+        else {
+            System.out.println("NO");
+        }
     }
 
-    public static boolean[][] setRoom (Integer N, List<Point> moldPoints) {
-        boolean[][] room = new boolean[N][N];
+    public static List<Point> breeding(List<Point> moldPoints, Integer N) {
+        List<Point> temp = new ArrayList<>();
 
-        for(int index = 0, size = moldPoints.size() ; index < size ; ++index) {
-            room[moldPoints.get(index).getX()][moldPoints.get(index).getY()] = true;
+        for(Point mold : moldPoints) {
+            for(Point trans : transition) {
+                Integer x = mold.getX() + trans.getX();
+                Integer y = mold.getY() + trans.getY();
 
-        }
-
-        return room;
-    }
-
-    public static boolean[][] breeding (boolean[][] room, List<Point> moldPoints) {
-        Point point;
-        List<Point> tempPoint = moldPoints;
-        moldPoints = new ArrayList<>();
-
-        for(int index = 0, size = tempPoint.size() ; index < size ; ++index) {
-            point = tempPoint.get(index);
-
-            room[point.getX()][point.getY()] = false;
-
-            moldPoints.add(new Point(point.getX() - 2, point.getY() - 1));
-            moldPoints.add(new Point(point.getX() - 2, point.getY() + 1));
-            moldPoints.add(new Point(point.getX() + 2, point.getY() - 1));
-            moldPoints.add(new Point(point.getX() + 2, point.getY() + 1));
-            moldPoints.add(new Point(point.getX() + 1, point.getY() - 2));
-            moldPoints.add(new Point(point.getX() + 1, point.getY() + 2));
-            moldPoints.add(new Point(point.getX() - 1, point.getY() - 2));
-            moldPoints.add(new Point(point.getX() - 1, point.getY() + 2));
-        }
-
-        for(int index = 0, size = moldPoints.size() ; index < size ; ++index) {
-            point = moldPoints.get(index);
-
-            if(point.getX() > 0 && point.getX() < room.length) {
-                if(point.getY() > 0 && point.getY() < room.length) {
-                    room[point.getX()][point.getY()] = true;
+                if(checkWall(x, y, N)) {
+                    temp.add(new Point(x, y));
                 }
             }
         }
 
-        return room;
+        return temp;
     }
 
-    public static void checkRoom (boolean[][] room, List<Point> checkPoints) {
-        Point point;
+    public static boolean checkWall(Integer x, Integer y, Integer N) {
+        if (x < 0 && x > N) {
+            return false;
+        } else if (y < 0 && y > N) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
-        for(int index = 0, size = checkPoints.size() ; index < size ; ++index) {
-            point = checkPoints.get(index);
-
-            if(room[point.getX()][point.getY()]) {
-                System.out.println("YES");
-                return;
+    public static boolean checkClean (List<Point> checkPoints, List<Point> moldPoints) {
+        for(Point check : checkPoints) {
+            for(Point mold : moldPoints) {
+                if (check.equal(mold)) {
+                    return true;
+                }
             }
         }
 
-        System.out.println("NO");
-        return;
+        return false;
     }
 }
