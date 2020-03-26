@@ -1,35 +1,39 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 class Programmers_DFS_BFS_3Test {
+    static Programmers_DFS_BFS_3 pdb3 = new Programmers_DFS_BFS_3();
 
     @Test
     void solution() {
-        Programmers_DFS_BFS_3 pdb3 = new Programmers_DFS_BFS_3();
-
         String begin = "hit";
         String target = "cog";
+        String[] words = {"hot","dot","dog","lot","log","cog"};
 
-        String[] words = {"hot", "dot", "dog", "lot", "log", "cog"};
+        assertThat(4, is(pdb3.solution(begin, target, words)));
 
-        assertEquals(4, pdb3.solution(begin, target, words));
+        String[] words_2 = {"hot","dot","dog","lot","log"};
 
-        String begin_2 = "hit";
-        String target_2 = "cog";
-
-        String[] words_2 = {"hot", "dot", "dog", "lot", "log"};
-
-        assertEquals(0, pdb3.solution(begin_2, target_2, words_2));
+        assertThat(0, is(pdb3.solution(begin, target, words_2)));
     }
 
     @Test
-    void checkDifferentCount() {
-        Programmers_DFS_BFS_3 pdb3 = new Programmers_DFS_BFS_3();
+    void testBackTracking() {
+    }
 
-        String begin = "hit";
-        String target = "cog";
+    @Test
+    void testCheckWords() {
+        String str1 = "hit";
+        String str2 = "cog";
 
-        assertEquals(false, pdb3.CheckDifferentCount(begin, target));
+        assertNotEquals(true, pdb3.checkWords(str1, str2));
+
+        str1 = "hit";
+        str2 = "hot";
+
+        assertThat(true, is(pdb3.checkWords(str1, str2)));
     }
 }
