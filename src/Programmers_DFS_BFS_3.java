@@ -46,6 +46,11 @@ public class Programmers_DFS_BFS_3 {
             }
         }
 
-        return true;
+        if(difCount == 1){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
