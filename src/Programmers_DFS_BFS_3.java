@@ -1,74 +1,51 @@
 public class Programmers_DFS_BFS_3 {
+    int count;
+
     public int solution(String begin, String target, String[] words) {
-        int answer = 1000;
-        boolean[] visited = new boolean[words.length];
+        count = words.length + 1;
 
-        if(!CheckWord(target, words)){
-            return 0;
-        }
-        else if(CheckDifferentCount(begin, target)){
-            return 1;
-        }
+        backTracking(words,begin,target,0, new boolean[words.length]);
 
-        for(int index = 0, size = words.length ; index < size ; index++){
-            if(CheckDifferentCount(begin, words[index])){
-                visited[index] = true;
-                answer = Math.min(answer, DFS(words[index], target, words, 1, visited));
-            }
+        int answer = 0;
+
+        if(count != words.length + 1) {
+            answer = this.count;
         }
 
         return answer;
     }
 
-    public boolean CheckWord (String target, String[] words){
-        for(int index = 0, size = words.length ; index < size ; index++){
-            if(target.equals(words[index])){
-                return true;
+    public void backTracking (String[] words, String now, String target, int tempCount, boolean[] visited) {
+        if(target.equals(now)) {
+            count = Math.min(count, tempCount);
+            return;
+        }
+        else if(tempCount > count) {
+            return;
+        }
+
+        for(int index = 0, size = words.length ; index < size ; ++index) {
+            if(!visited[index] && checkWords(now, words[index])) {
+                visited[index] = !visited[index];
+                backTracking(words, words[index], target, tempCount + 1, visited);
+                visited[index] = !visited[index];
             }
         }
-        return false;
     }
 
-    public boolean CheckDifferentCount (String begin, String target){
-        int differentCount = 0;
+    public boolean checkWords (String str1, String str2) {
+        int difCount = 0;
 
-        for(int index = 0, size = begin.length() ; index < size ; index++){
-            if(begin.charAt(index) != target.charAt(index)){
-                ++differentCount;
+        for(int index = 0 , size = str1.length() ; index < size ; ++index) {
+            if(str1.charAt(index) != str2.charAt(index)) {
+                ++difCount;
+            }
+
+            if(difCount > 1) {
+                return false;
             }
         }
 
-        if(differentCount == 1){
-            return true;
-        }
-
-        return false;
+        return true;
     }
-
-    public int DFS(String begin, String target, String[] words, int count, boolean[] visited){
-        int tempCount = count;
-
-
-        if(begin.equals(target)){
-            return count;
-        }
-
-        for(int index = 0, size = words.length ; index < size ; index++){
-            if(visited[index]){
-                continue;
-            }
-
-            if(CheckDifferentCount(begin, words[index])){
-                System.out.println(begin);
-                System.out.println(count);
-                visited[index] = true;
-                count = Math.min(count, DFS(words[index], target, words, tempCount + 1, visited));
-            }
-        }
-
-
-        return count;
-    }
-
-
 }
