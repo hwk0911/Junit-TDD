@@ -2,9 +2,9 @@
 Junit을 통한 TDD 연습
 
 ## 사용 스택
-IDE : IntelliJ
-
-Junit ver : Junit5
+IDE		: IntelliJ   
+Junit ver	: Junit5    
+Hamcrest ver	: hamcerst2.2   
 
 ## 문제 출처
 [Programmers](https://programmers.co.kr)  
@@ -31,7 +31,9 @@ Junit ver : Junit5
 	Porgrammers_Sort_1 K번째수 (QuickSort)
 	
 ### DFS / BFS :
+	Programmers_DFS_BFS_1 타겟 넘버
 	Programmers_DFS_BFS_2 네트워크
+	Programmers_DFS_BFS_3 단어 변환
 	
 ### Brute Force
 	Programmers_BruteForce_1_모의고사
@@ -71,3 +73,6 @@ Junit ver : Junit5
 ## LeetCode Solutions
 	Leetcode_Midium_22_GenerateParentheses.java
 	Leetcode_Midium_22_GenerateParentheses_practice.java
+	
+## [How To Hamcrest](https://cafecoder.tistory.com/entry/TDD%EB%A5%BC-%EB%8D%94-%EC%9A%B0%EC%95%84%ED%95%98%EA%B2%8C-amcrest)  
+
