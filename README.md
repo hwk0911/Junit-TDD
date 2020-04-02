@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.com/{hwk0911}/{Junit-TDD}.svg)](http://hits.dwyl.com/{hwk0911}/{Junit-TDD})
 # 개요
 Junit을 통한 TDD 연습
 
@@ -75,4 +76,5 @@ Hamcrest ver	: hamcerst2.2
 	Leetcode_Midium_22_GenerateParentheses_practice.java
 	
 ## [How To Hamcrest](https://cafecoder.tistory.com/entry/TDD%EB%A5%BC-%EB%8D%94-%EC%9A%B0%EC%95%84%ED%95%98%EA%B2%8C-amcrest)  
+
 
