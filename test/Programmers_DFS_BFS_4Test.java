@@ -1,7 +1,7 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class Programmers_DFS_BFS_4Test {
     static Programmers_DFS_BFS_4 pdb4 = new Programmers_DFS_BFS_4();

@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 class Programmers_DFS_BFS_3Test {
     static Programmers_DFS_BFS_3 pdb3 = new Programmers_DFS_BFS_3();
