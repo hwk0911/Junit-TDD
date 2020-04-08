@@ -13,7 +13,7 @@ public class BOJ_1018_체스판다시칠하기 {
         int M = Integer.parseInt(st.nextToken());
 
         int gap = M - 8;
-        setStringBuilder(M - 8);
+        setStringBuilder(M - 8, N);
 
         StringBuilder target = new StringBuilder();
 
@@ -22,24 +22,26 @@ public class BOJ_1018_체스판다시칠하기 {
             // 9 * 8 같은 경우를 체크할것.
         } while (br.ready());
 
-        int answer = optimizeCount(target, gap);
+        int answer = optimizeCount(target, gap, N);
 
         System.out.println(answer);
     }
 
-    public static void setStringBuilder(int gap) {
+    public static void setStringBuilder(int gap, int line) {
         String blank = "";
 
         for(int index = 0 ; index < gap ; ++index) {
             blank += " ";
         }
 
-        for(int index = 0 ; index < 4 ; ++index) {
-            mask.append("BWBWBWBW");
-            mask.append(blank);
-            mask.append("WBWBWBWB");
-
-            if(index != 3) {
+        for(int index = 0 ; index < 8 ; ++index) {
+            if(index % 2 == 0) {
+                mask.append("BWBWBWBW");
+            }
+            else {
+                mask.append("WBWBWBWB");
+            }
+            if(index != line - 1) {
                 mask.append(blank);
             }
         }
@@ -47,24 +49,25 @@ public class BOJ_1018_체스판다시칠하기 {
         return;
     }
 
-    public static int optimizeCount(StringBuilder target, int gap) {
+    public static int optimizeCount(StringBuilder target, int gap, int line) {
         int BCount = Integer.MAX_VALUE;
 
-        for (int index = 0 ; index <= gap ; ++index) {
-            int tempBCount = 0;
-            int tempWCount = 0;
+        for(int jumLine = 0 ; jumLine <= line - 8 ; ++jumLine) {
+            int nextLine = jumLine * (gap + 8);
+            for (int index = 0; index <= gap; ++index) {
+                int tempBCount = 0;
 
-            for(int index_2 = 0, size = mask.length(); index_2 < size; ++index_2) {
-                if(mask.charAt(index_2) == ' ') {
-                    continue;
+                for (int index_2 = 0, size = mask.length(); index_2 < size; ++index_2) {
+                    if (mask.charAt(index_2) == ' ') {
+                        continue;
+                    } else if (mask.charAt(index_2) != target.charAt(nextLine + index_2 + index)) {
+                        ++tempBCount;
+                    }
                 }
-                else if(mask.charAt(index_2) != target.charAt(index_2 + index)) {
-                    ++tempBCount;
-                }
+                tempBCount = Math.min(tempBCount, 64 - tempBCount);
+                BCount = Math.min(BCount, tempBCount);
+
             }
-            tempBCount = Math.min(tempBCount, 64 - tempBCount);
-            BCount = Math.min(BCount, tempBCount);
-
         }
 
         return BCount;
