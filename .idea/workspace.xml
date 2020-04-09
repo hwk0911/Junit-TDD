@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bbc4b56-af35-4b37-b5ed-9cef84f6ebf6" name="Default Changelist" comment="Problem_2019_1.java">
-      <change afterPath="$PROJECT_DIR$/test/BOJ_14681_사분면고르기Test.java" afterDir="false" />
+    <list default="true" id="5bbc4b56-af35-4b37-b5ed-9cef84f6ebf6" name="Default Changelist" comment="BOJ_14681_사분면고르기.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammersTDD/ProgrammersTDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammersTDD/ProgrammersTDD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestOverloading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestOverloading.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ_14681_사분면고르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ_14681_사분면고르기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BOJ_Function_15596_정수N개의합Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BOJ_Function_15596_정수N개의합Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Programmers_DFS_BFS_3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Programmers_DFS_BFS_3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Programmers_DFS_BFS_4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Programmers_DFS_BFS_4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ_1018_체스판다시칠하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ_1018_체스판다시칠하기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,59 +68,50 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hwk09\IdeaProjects\Junit-TDD\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hwk09\IdeaProjects\Junit-TDD\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BOJ_14681_사분면고르기Test.selectQuadrant">
-    <configuration name="BOJ_14681_사분면고르기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_14681_사분면고르기" />
+  <component name="RunManager" selected="Application.BOJ_1018_체스판다시칠하기">
+    <configuration name="BOJ_1002_터렛" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_1002_터렛" />
       <module name="TestOverloading" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_14681_사분면고르기Test.selectQuadrant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BOJ_1018_체스판다시칠하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_1018_체스판다시칠하기" />
       <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BOJ_14681_사분면고르기Test" />
-      <option name="METHOD_NAME" value="selectQuadrant" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_2019_1Test.setNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BOJ_11729_하노이탑이동순서" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_11729_하노이탑이동순서" />
       <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Problem_2019_1Test" />
-      <option name="METHOD_NAME" value="setNext" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_2019_1Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BOJ_2447_별찍기_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_2447_별찍기_10" />
       <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Problem_2019_1Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Programmers_Graph_가장먼노드Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BOJ_1002_터렛Test.getAbsoluteValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestOverloading" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Programmers_Graph_가장먼노드Test" />
-      <option name="METHOD_NAME" value="solution" />
+      <option name="MAIN_CLASS_NAME" value="BOJ_1002_터렛Test" />
+      <option name="METHOD_NAME" value="getAbsoluteValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BOJ_14681_사분면고르기Test.selectQuadrant" />
-        <item itemvalue="Application.BOJ_14681_사분면고르기" />
-        <item itemvalue="JUnit.Problem_2019_1Test.solution" />
-        <item itemvalue="JUnit.Problem_2019_1Test.setNext" />
-        <item itemvalue="JUnit.Programmers_Graph_가장먼노드Test.solution" />
+        <item itemvalue="Application.BOJ_1018_체스판다시칠하기" />
+        <item itemvalue="Application.BOJ_11729_하노이탑이동순서" />
+        <item itemvalue="Application.BOJ_2447_별찍기_10" />
+        <item itemvalue="Application.BOJ_1002_터렛" />
+        <item itemvalue="JUnit.BOJ_1002_터렛Test.getAbsoluteValue" />
       </list>
     </recent_temporary>
   </component>
@@ -174,62 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579424887551</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Programmers_DFS_BFS_3 단어 변환&#10;DFS 함수 수정&#10;&#10;미완성">
-      <created>1580723791943</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1580723791943</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Programmers_Sort_2 가장 큰 수&#10;&#10;논리오류">
-      <created>1580806918317</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1580806918317</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Programmers_Sort_2 가장 큰 수&#10;&#10;논리오류">
-      <created>1581660811885</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1581660811885</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Programmers_DFS_BFS_2 단어 변환&#10;&#10;answer 최소값 구하는 방법 다시 생각할것">
-      <created>1581667057253</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1581667057253</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Programmers_DFS_BFS_2 단어 변환 test">
-      <created>1581667074298</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1581667074298</updated>
-    </task>
-    <task id="LOCAL-00033" summary="BOJ_Array_2562_최댓값">
-      <created>1582114104117</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1582114104117</updated>
-    </task>
-    <task id="LOCAL-00034" summary="BOJ_Function_15596_정수N개의합">
-      <created>1582115283748</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1582115283748</updated>
-    </task>
-    <task id="LOCAL-00035" summary="BOJ_Function_15596_정수N개의합 test">
-      <created>1582115292757</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1582115292757</updated>
     </task>
     <task id="LOCAL-00036" summary="Programmers_Sort_2.java">
       <created>1582196830253</created>
@@ -518,18 +447,66 @@
       <option name="project" value="LOCAL" />
       <updated>1586145468257</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="BOJ_10996_별찍기_21Test.java">
+      <created>1586148480270</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1586148480270</updated>
+    </task>
+    <task id="LOCAL-00078" summary="BOJ_10996_별찍기_21.java">
+      <created>1586148487563</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1586148487563</updated>
+    </task>
+    <task id="LOCAL-00079" summary="BOJ_1002_터렛.java">
+      <created>1586152753884</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1586152753884</updated>
+    </task>
+    <task id="LOCAL-00080" summary="BOJ_1002_터렛Test.java">
+      <created>1586152766787</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1586152766787</updated>
+    </task>
+    <task id="LOCAL-00081" summary="BOJ_1002_터렛.java&#10;&#10;0에 대한 주석처리">
+      <created>1586152900146</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1586152900146</updated>
+    </task>
+    <task id="LOCAL-00082" summary="BOJ_2447_별찍기_10.java&#10;&#10;나중에 다시 풀어볼것.">
+      <created>1586157995444</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1586157995445</updated>
+    </task>
+    <task id="LOCAL-00083" summary="BOJ_11729_하노이탑이동순서.java&#10;&#10;다시 풀어보기.">
+      <created>1586162864504</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1586162864504</updated>
+    </task>
+    <task id="LOCAL-00084" summary="BOJ_1018_체스판다시칠하기.java&#10;&#10;해결방법 찾음.">
+      <created>1586253511024</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1586253511024</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Programmers_BruteForce_1_모의고사.java" />
-    <MESSAGE value="Programmers_BruteForce_1_모의고사Test.java" />
-    <MESSAGE value="Leetcode_Midium_22_GenerateParentheses.java&#10;&#10;https://www.youtube.com/watch?v=Bt11jaoqt_Y&#10;참조해서 백트래킹 공부&#10;&#10;후에 직접 구현할 것." />
-    <MESSAGE value="git ignore 수정" />
-    <MESSAGE value="gitignore 수정" />
-    <MESSAGE value="Leetcode_Midium_22_GenerateParentheses_practiceTest.java" />
-    <MESSAGE value="Leetcode_Midium_22_GenerateParentheses_practice.java" />
-    <MESSAGE value="BOJ_BackTrackking_1_N과M.java&#10;&#10;미완성" />
     <MESSAGE value="BOJ_BackTrackking_15649_N과M.java&#10;&#10;이름 변경&#10;BOJ_BackTrackking_1_N과M.java -&gt; BOJ_BackTrackking_15649_N과M.java&#10;&#10;termination check, recurse next 주석 추가" />
     <MESSAGE value="BOJ_숭실대_15806_영우의기숙사청소.java&#10;&#10;runtime error" />
     <MESSAGE value="BOJ_숭실대_15806_영우의기숙사청소.java&#10;&#10;시간초과" />
@@ -547,7 +524,15 @@
     <MESSAGE value="Problem_2019_1.java" />
     <MESSAGE value="Problem_2019_1Test.java" />
     <MESSAGE value="BOJ_14681_사분면고르기.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ_14681_사분면고르기.java" />
+    <MESSAGE value="BOJ_10996_별찍기_21Test.java" />
+    <MESSAGE value="BOJ_10996_별찍기_21.java" />
+    <MESSAGE value="BOJ_1002_터렛.java" />
+    <MESSAGE value="BOJ_1002_터렛Test.java" />
+    <MESSAGE value="BOJ_1002_터렛.java&#10;&#10;0에 대한 주석처리" />
+    <MESSAGE value="BOJ_2447_별찍기_10.java&#10;&#10;나중에 다시 풀어볼것." />
+    <MESSAGE value="BOJ_11729_하노이탑이동순서.java&#10;&#10;다시 풀어보기." />
+    <MESSAGE value="BOJ_1018_체스판다시칠하기.java&#10;&#10;해결방법 찾음." />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ_1018_체스판다시칠하기.java&#10;&#10;해결방법 찾음." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="74" key="#Auto_Import" timestamp="1580115243650">
@@ -583,6 +568,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="953" y="241" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.824@0.0.1536.824" timestamp="1582969886414" />
+    <state x="868" y="117" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586160594645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="868" y="117" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1586160594645" />
     <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580375242888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -591,84 +580,88 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="833" y="72" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1585213350028" />
-    <state x="899" y="251" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585125758013">
+    <state x="899" y="251" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586250383599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="899" y="251" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585125758013" />
-    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1586146104290">
+    <state x="899" y="251" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1586250383599" />
+    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1586412934903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="789" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425915732" />
-    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586146104290" />
+    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586412934903" />
     <state x="130" y="64" key="DiffContextDialog" timestamp="1582201150338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="130" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1582201150338" />
-    <state x="786" y="147" key="FileChooserDialogImpl" timestamp="1585993287889">
+    <state x="786" y="147" key="FileChooserDialogImpl" timestamp="1586171554399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="971" y="147" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425437300" />
-    <state x="786" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585993287889" />
-    <state width="724" height="114" key="GridCell.Tab.0.bottom" timestamp="1586146068966">
+    <state x="786" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586171554399" />
+    <state width="723" height="114" key="GridCell.Tab.0.bottom" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="724" height="114" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586146068966" />
-    <state width="724" height="114" key="GridCell.Tab.0.center" timestamp="1586146068966">
+    <state width="723" height="114" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
+    <state width="723" height="114" key="GridCell.Tab.0.center" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="724" height="114" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586146068966" />
-    <state width="724" height="114" key="GridCell.Tab.0.left" timestamp="1586146068965">
+    <state width="723" height="114" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
+    <state width="723" height="114" key="GridCell.Tab.0.left" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989462" />
-    <state width="724" height="114" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586146068965" />
-    <state width="724" height="114" key="GridCell.Tab.0.right" timestamp="1586146068966">
+    <state width="723" height="114" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
+    <state width="723" height="114" key="GridCell.Tab.0.right" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
-    <state width="724" height="114" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586146068966" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1580723806115">
+    <state width="723" height="114" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
+    <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990207" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580723806115" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1580723806115">
+    <state width="723" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
+    <state width="723" height="259" key="GridCell.Tab.1.center" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990207" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580723806115" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1580723806115">
+    <state width="723" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
+    <state width="723" height="259" key="GridCell.Tab.1.left" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990206" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580723806115" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1580723806115">
+    <state width="723" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
+    <state width="723" height="259" key="GridCell.Tab.1.right" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="222" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990207" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580723806115" />
+    <state width="723" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
     <state x="498" y="0" key="SettingsEditor" timestamp="1585822103357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="48" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425429368" />
     <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585822103357" />
-    <state x="357" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586145082811">
+    <state x="357" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586253519325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425932913" />
-    <state x="357" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586145082811" />
+    <state x="357" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586253519325" />
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585821870121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425072671" />
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1585821870121" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586145918514">
+    <state x="786" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586147858938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="786" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1586147858938" />
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586150962239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425106555" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586145918514" />
+    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586150962239" />
     <state x="232" y="118" width="616" height="538" key="find.popup" timestamp="1582196584096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -682,9 +675,9 @@
     </state>
     <state x="360" y="21" key="new project wizard/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426059407" />
     <state x="360" y="21" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583234919498" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585918300967">
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586251411793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585918300967" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586251411793" />
   </component>
 </project>
