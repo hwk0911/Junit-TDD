@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bbc4b56-af35-4b37-b5ed-9cef84f6ebf6" name="Default Changelist" comment="BOJ_14681_사분면고르기.java">
+      <change afterPath="$PROJECT_DIR$/src/Programmers_Greedy_체육복.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Programmers_Greedy_체육복Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ_1018_체스판다시칠하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ_1018_체스판다시칠하기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -27,18 +28,10 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\hwk09\IdeaProjects\TestOverloading\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1Wbiqjjo8Irk9rrs7n0yhtdRxYA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -46,6 +39,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true&#10;C:/Users/hwk09/IdeaProjects/Junit-TDD/.idea/libraries/hamcrest_2_2.xml" />
@@ -68,17 +62,17 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hwk09\IdeaProjects\Junit-TDD\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hwk09\IdeaProjects\Junit-TDD\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_1018_체스판다시칠하기">
+  <component name="RunManager" selected="JUnit.Programmers_Greedy_체육복Test.solution">
     <configuration name="BOJ_1002_터렛" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_1002_터렛" />
       <module name="TestOverloading" />
@@ -107,20 +101,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1002_터렛Test.getAbsoluteValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Programmers_Greedy_체육복Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestOverloading" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BOJ_1002_터렛Test" />
-      <option name="METHOD_NAME" value="getAbsoluteValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Programmers_Graph_순위Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestOverloading" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Programmers_Graph_순위Test" />
+      <option name="MAIN_CLASS_NAME" value="Programmers_Greedy_체육복Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -129,25 +113,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Programmers_Greedy_체육복Test.solution" />
         <item itemvalue="Application.BOJ_1018_체스판다시칠하기" />
         <item itemvalue="Application.BOJ_11729_하노이탑이동순서" />
         <item itemvalue="Application.BOJ_2447_별찍기_10" />
         <item itemvalue="Application.BOJ_1002_터렛" />
-        <item itemvalue="JUnit.BOJ_1002_터렛Test.getAbsoluteValue" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -535,47 +507,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="BOJ_1018_체스판다시칠하기.java&#10;&#10;해결방법 찾음." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="74" key="#Auto_Import" timestamp="1580115243650">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="74" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1580115243650" />
     <state x="722" y="90" key="#HTTP_Proxy" timestamp="1585214025311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="90" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1585214025311" />
-    <state x="722" y="74" key="#Plugins" timestamp="1583235425276">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="74" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1583235425276" />
-    <state x="722" y="74" key="#Project_Structure" timestamp="1579426081027">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="74" key="#Project_Structure/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426081027" />
-    <state x="326" y="146" width="1200" height="534" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583142882813">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="590" y="138" width="1200" height="534" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425514148" />
-    <state x="326" y="146" width="1200" height="534" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1583142882813" />
     <state x="352" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1585292664061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585292664061" />
-    <state x="730" y="89" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579426041987">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="730" y="89" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426041987" />
-    <state x="953" y="241" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582969886414">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="953" y="241" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.824@0.0.1536.824" timestamp="1582969886414" />
     <state x="868" y="117" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586160594645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="868" y="117" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1586160594645" />
-    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580375242888">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580375242888" />
     <state x="833" y="72" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1585213350028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -587,94 +530,68 @@
     <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1586412934903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="789" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425915732" />
     <state x="216" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586412934903" />
-    <state x="130" y="64" key="DiffContextDialog" timestamp="1582201150338">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="130" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1582201150338" />
     <state x="786" y="147" key="FileChooserDialogImpl" timestamp="1586171554399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="971" y="147" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425437300" />
     <state x="786" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586171554399" />
     <state width="723" height="114" key="GridCell.Tab.0.bottom" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
     <state width="723" height="114" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
     <state width="723" height="114" key="GridCell.Tab.0.center" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
     <state width="723" height="114" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
     <state width="723" height="114" key="GridCell.Tab.0.left" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989462" />
     <state width="723" height="114" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
     <state width="723" height="114" key="GridCell.Tab.0.right" timestamp="1586412798430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425989463" />
     <state width="723" height="114" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586412798430" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990207" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
     <state width="723" height="259" key="GridCell.Tab.1.center" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990207" />
     <state width="723" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
     <state width="723" height="259" key="GridCell.Tab.1.left" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990206" />
     <state width="723" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
     <state width="723" height="259" key="GridCell.Tab.1.right" timestamp="1586252316433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="222" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425990207" />
     <state width="723" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586252316433" />
     <state x="498" y="0" key="SettingsEditor" timestamp="1585822103357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="48" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425429368" />
     <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585822103357" />
     <state x="357" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586253519325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425932913" />
     <state x="357" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586253519325" />
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585821870121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425072671" />
     <state x="872" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1585821870121" />
     <state x="786" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586147858938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="786" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1586147858938" />
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586150962239">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1155" y="149" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592727025739">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579425106555" />
     <state x="924" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586150962239" />
-    <state x="232" y="118" width="616" height="538" key="find.popup" timestamp="1582196584096">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="232" y="118" width="616" height="538" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582196584096" />
+    <state x="1155" y="149" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592727025739" />
     <state x="826" y="225" key="git4idea.merge.GitPullDialog" timestamp="1586145086270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="826" y="225" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1586145086270" />
-    <state x="360" y="21" key="new project wizard" timestamp="1583234919498">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="360" y="21" key="new project wizard/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1579426059407" />
-    <state x="360" y="21" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583234919498" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586251411793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
